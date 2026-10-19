@@ -8,15 +8,15 @@ Presentaciones de las materias para incrustar en Moodle. Cada clase se publica e
 docs/
   index.html                         Página neutra, sin catálogo ni enlaces
   404.html                           Página neutra para rutas inexistentes
-  taller-integrador-rol-policial/
-    clase-01/
+  Taller_Integrador_para_la_Construccion_del_Rol_Policial/
+    Clase_01/
       index.html                     Presentación de la clase
       styles.css                     Diseño exclusivo de esta clase
       app.js                         Navegación y actividades de esta clase
       assets/                        Escudos y lectura PDF de esta clase
 ```
 
-Para las siguientes materias, crear otra carpeta dentro de `docs`. Para las siguientes clases, crear `clase-02`, `clase-03`, etc., dentro de la materia correspondiente. Utilizar nombres en minúsculas, sin espacios ni tildes, para mantener direcciones sencillas y estables.
+Para las siguientes materias, crear otra carpeta dentro de `docs`. Para las siguientes clases, crear `Clase_02`, `Clase_03`, etc., dentro de la materia correspondiente. Utilizar nombres sin espacios ni tildes y conservar exactamente las mayúsculas y minúsculas de las carpetas al compartir las direcciones.
 
 ## Independencia entre clases
 
@@ -31,7 +31,7 @@ Esta separación es de contenido y navegación. No es una restricción de acceso
 
 ## Publicación en GitHub Pages
 
-Repositorio previsto: `materias-2027`. La estructura local está preparada; la publicación remota requiere una cuenta de GitHub conectada.
+Repositorio previsto: `Clases`. Repositorio remoto creado por el usuario: https://github.com/Jbrandan/Clases. La publicación de los archivos se verifica por separado.
 
 En Settings → Pages, seleccionar Deploy from a branch, rama `main`, carpeta `/docs` y guardar. Esperar a que GitHub confirme la publicación. No cambiar el nombre del repositorio o de las carpetas una vez que las direcciones se hayan incorporado al aula, salvo que también se actualicen los enlaces de Moodle.
 
@@ -39,17 +39,17 @@ Documentación oficial: https://docs.github.com/en/pages/getting-started-with-gi
 
 ## Dirección de la primera clase
 
-Ejemplo pendiente de sustituir `USUARIO` por la cuenta real:
+Dirección prevista, pendiente de activar y verificar GitHub Pages:
 
 ```text
-https://USUARIO.github.io/materias-2027/taller-integrador-rol-policial/clase-01/
+https://Jbrandan.github.io/Clases/Taller_Integrador_para_la_Construccion_del_Rol_Policial/Clase_01/
 ```
 
 ## Incrustación en Moodle
 
 ```html
 <iframe
-  src="https://USUARIO.github.io/materias-2027/taller-integrador-rol-policial/clase-01/"
+  src="https://Jbrandan.github.io/Clases/Taller_Integrador_para_la_Construccion_del_Rol_Policial/Clase_01/"
   title="Taller Integrador para la Construcción del Rol Policial · Clase 1"
   width="100%"
   height="820"
