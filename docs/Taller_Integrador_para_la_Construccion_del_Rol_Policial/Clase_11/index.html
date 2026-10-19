@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102e3b">
+  <meta name="description" content="Clase 11 · El extracto del hecho. Taller Integrador para la Construcción del Rol Policial.">
+  <title>Clase 11 · El extracto del hecho</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a href="#contenido" class="skip">Ir al contenido</a>
+  <header class="header">
+    <button class="brand" id="home" aria-label="Volver a la portada"><img src="assets/escudo-formacion.png" alt="Escudo de formación"><span>TALLER INTEGRADOR<small>Construcción del Rol Policial</small></span></button>
+    <div class="header-actions"><button class="text-button" id="reading">Material de lectura <span aria-hidden="true">↗</span></button><button class="icon-button" id="fullscreen" aria-label="Activar pantalla completa" title="Pantalla completa">⛶</button><button class="menu-toggle" id="menu-toggle" aria-haspopup="dialog" aria-controls="menu">Índice <span aria-hidden="true">☰</span></button></div>
+  </header>
+  <main id="contenido" tabindex="-1"></main>
+  <footer class="navigation"><div class="chapter"><span class="chapter-dot"></span><span id="chapter-name">Presentación</span></div><div class="counter"><strong id="page-current">01</strong><span>/</span><span id="page-total">00</span></div><div class="nav-actions"><button id="prev" class="nav-prev" aria-label="Pantalla anterior">← <span>Anterior</span></button><button id="next" class="nav-next"><span>Siguiente</span> <span aria-hidden="true">→</span></button></div><div class="progress-track"><div id="progress"></div></div></footer>
+  <dialog id="menu" class="menu-dialog"><div class="dialog-top"><div><span class="eyebrow">CLASE 01</span><h2>Tu recorrido</h2></div><button class="close" data-close aria-label="Cerrar índice">×</button></div><nav id="menu-list" aria-label="Índice de temas"></nav></dialog>
+  <dialog id="detail" class="detail-dialog"><div class="dialog-top"><span class="eyebrow" id="detail-label">PARA PROFUNDIZAR</span><button class="close" data-close aria-label="Cerrar explicación">×</button></div><div id="detail-content"></div></dialog>
+  <div id="announcement" class="sr-only" aria-live="polite"></div>
+  <noscript><div class="no-script">Esta presentación necesita JavaScript para la navegación y las actividades. Podés consultar el <a href="lectura.html">material de lectura de la clase</a>.</div></noscript>
+  <script src="lesson-data.js" defer></script>
+  <script src="app.js" defer></script>
+</body>
+</html>

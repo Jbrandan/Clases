@@ -1,4 +1,4 @@
-# Materias 2027
+# Clases · Materiales para Moodle
 
 Presentaciones de las materias para incrustar en Moodle. Cada clase se publica en su propia carpeta y contiene todos sus recursos.
 
@@ -31,7 +31,7 @@ Esta separación es de contenido y navegación. No es una restricción de acceso
 
 ## Publicación en GitHub Pages
 
-Repositorio previsto: `Clases`. Repositorio remoto creado por el usuario: https://github.com/Jbrandan/Clases. La publicación de los archivos se verifica por separado.
+Repositorio previsto: `Clases`. Repositorio remoto creado por el usuario: https://github.com/Jbrandan/Clases. GitHub Pages publica la rama `main`, carpeta `/docs`.
 
 En Settings → Pages, seleccionar Deploy from a branch, rama `main`, carpeta `/docs` y guardar. Esperar a que GitHub confirme la publicación. No cambiar el nombre del repositorio o de las carpetas una vez que las direcciones se hayan incorporado al aula, salvo que también se actualicen los enlaces de Moodle.
 
@@ -39,7 +39,7 @@ Documentación oficial: https://docs.github.com/en/pages/getting-started-with-gi
 
 ## Dirección de la primera clase
 
-Dirección prevista, pendiente de activar y verificar GitHub Pages:
+Dirección de la primera clase:
 
 ```text
 https://Jbrandan.github.io/Clases/Taller_Integrador_para_la_Construccion_del_Rol_Policial/Clase_01/
@@ -60,10 +60,19 @@ https://Jbrandan.github.io/Clases/Taller_Integrador_para_la_Construccion_del_Rol
 </iframe>
 ```
 
-La dirección es ilustrativa hasta que se cree y publique el repositorio. Los permisos de Moodle deben permitir insertar iframe.
+Las clases 01 a 30 utilizan el mismo formato, sustituyendo `Clase_01` por el número correspondiente. Los permisos de Moodle deben permitir insertar iframe.
 
 ## Material de la clase 1
 
 Síntesis del desarrollo de temas de la clase 1 aportado por el docente; el PDF original se incluye en la carpeta de esa clase. La presentación acompaña la lectura obligatoria, conserva los escudos suministrados e incluye portada, conclusión y despedida.
 
 Para el foro se priorizó el desarrollo de temas de 2026 frente al itinerario de 2025. Se corrigió en la síntesis la fecha de adopción de la Resolución 34/169: 17 de diciembre de 1979. El PDF original no fue modificado. Las actividades son de práctica y no envían notas ni finalización a Moodle.
+
+
+## Clases 02 a 30
+
+Cada carpeta `Clase_XX` incorpora su presentación independiente, datos de contenido, lectura HTML de los documentos originales, recursos y actividades de práctica. Los controles de navegación permanecen dentro de la clase. No hay un índice público entre clases.
+
+Las instancias de evaluación y recuperación se presentan como orientación y repaso. Los exámenes, bancos de preguntas y entregas formales permanecen en Moodle. Las prácticas interactivas no envían ni almacenan calificaciones. Las notas y listas de revisión son temporales.
+
+Los documentos fuente presentan diferencias de ciclo lectivo y algunas referencias cruzadas inconsistentes. Las presentaciones remiten al cronograma y condiciones del aula, y el lector de originales identifica que conserva el contenido de los archivos aportados. El informe docente de revisión y la lista completa de enlaces se entregan por separado, fuera del sitio público.
